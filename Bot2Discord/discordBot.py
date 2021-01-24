@@ -27,4 +27,8 @@ class DiscordBot:
         
     
         
-    
+    async def on_message(self, message):
+        #send this message to either main or teamsbot
+        # do we want the main method to traffic the messages or just send them directly?
+        # maybe add a queue system?
+        pass
